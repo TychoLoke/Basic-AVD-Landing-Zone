@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "westeurope"
+    },
+    "resourceGroupName": {
+      "value": "rg-avd-demo"
+    },
+    "prefix": {
+      "value": "avddemo"
+    },
+    "adminUsername": {
+      "value": "avdadmin"
+    },
+    "adminPassword": {
+      "value": "CHANGE_THIS_P@ssw0rd123!"
+    },
+    "sessionHostCount": {
+      "value": 2
+    },
+    "vmSize": {
+      "value": "Standard_B2ms"
+    },
+    "vnetAddressPrefix": {
+      "value": "10.0.0.0/16"
+    },
+    "subnetAddressPrefix": {
+      "value": "10.0.1.0/24"
+    },
+    "maxSessionLimit": {
+      "value": 10
+    },
+    "loadBalancerType": {
+      "value": "BreadthFirst"
+    }
+  }
+}
