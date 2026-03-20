@@ -40,7 +40,7 @@ Complete step-by-step guide for deploying the AVD demo environment.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/avd-demo.git
+git clone https://github.com/TychoLoke/Basic-AVD-Landing-Zone.git
 cd avd-demo
 ```
 

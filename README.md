@@ -1,6 +1,6 @@
 # Azure Virtual Desktop (AVD) - Cost-Optimized Demo Environment
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftycholoke%2Favd-demo%2Fmain%2Fazuredeploy.json)
+[![Deployment Guide](https://img.shields.io/badge/Deployment-Guide-0078D4?style=for-the-badge)](./docs/DEPLOYMENT-GUIDE.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A complete, production-ready Azure Virtual Desktop environment optimized for cost and demos. Features Azure AD join, SSO, and automatic VM startup.
@@ -36,8 +36,8 @@ A complete, production-ready Azure Virtual Desktop environment optimized for cos
 
 ```powershell
 # Clone repository
-git clone https://github.com/tycholoke/avd-demo.git
-cd avd-demo
+git clone https://github.com/TychoLoke/Basic-AVD-Landing-Zone.git
+cd Basic-AVD-Landing-Zone
 
 # Login to Azure
 Connect-AzAccount
@@ -53,8 +53,8 @@ notepad parameters/avd-demo.parameters.json
 
 ```bash
 # Clone repository
-git clone https://github.com/tycholoke/avd-demo.git
-cd avd-demo
+git clone https://github.com/TychoLoke/Basic-AVD-Landing-Zone.git
+cd Basic-AVD-Landing-Zone
 
 # Login to Azure
 az login
@@ -68,7 +68,7 @@ nano parameters/avd-demo.parameters.json
 
 ### Option 3: Deploy to Azure Button
 
-Click the "Deploy to Azure" button at the top of this README for a guided deployment experience in the Azure Portal.
+Use the deployment guide linked at the top of this README for a guided setup flow and post-deployment validation steps.
 
 ## 📋 What Gets Deployed
 
@@ -121,7 +121,7 @@ SSO is pre-configured with `enablerdsaadauth:i:1`. Users will experience seamles
 ## 📁 Repository Structure
 
 ```
-avd-demo/
+Basic-AVD-Landing-Zone/
 ├── bicep/
 │   ├── main.bicep                    # Main deployment template
 │   └── modules/

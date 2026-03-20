@@ -40,7 +40,7 @@ git add .
 git commit -m "Initial commit: Complete AVD demo environment"
 
 # Add remote (replace YOUR-USERNAME)
-git remote add origin https://github.com/YOUR-USERNAME/avd-demo.git
+git remote add origin https://github.com/TychoLoke/Basic-AVD-Landing-Zone.git
 
 # Push to GitHub
 git branch -M main
